@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Onda Surf</string>
+    <string name="surf_school_subtitle">Escola de Surf • Aulas de Hoje</string>
+    <string name="spots_available">%1$d de %2$d vagas disponíveis</string>
+    <string name="class_full">Turma cheia</string>
+    <string name="i_want_to_go">Quero Ir</string>
+    <string name="cancel_attendance">Cancelar Presença</string>
+    <string name="class_cancelled_weather">Cancelada por tempo ruim</string>
+    <string name="admin_mode_label">Painel Instrutor</string>
+</resources>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006874" />
+      <stop offset="100%" stop-color="#00363D" />
+    </linearGradient>
+    <linearGradient id="surfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E06D53" />
+      <stop offset="100%" stop-color="#FFDAD4" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#oceanGrad)" />
+  <!-- Wave curves -->
+  <path d="M64 360 C 140 280, 220 280, 290 350 C 350 410, 420 400, 448 370 C 448 420, 420 448, 64 448 Z" fill="#80D4E2" opacity="0.4" />
+  <path d="M64 390 C 160 320, 250 320, 320 380 C 370 420, 410 420, 448 400 C 448 448, 410 448, 64 448 Z" fill="#C4F2FA" opacity="0.6" />
+  <!-- Surfboard silhouette -->
+  <g transform="translate(256, 230) rotate(-35) translate(-30, -130)">
+    <path d="M 30 0 C 45 40, 58 120, 56 200 C 54 240, 44 260, 30 260 C 16 260, 6 240, 4 200 C 2 120, 15 40, 30 0 Z" fill="url(#surfGrad)" />
+    <!-- Stripe down surfboard center -->
+    <path d="M 28 10 L 32 10 L 32 250 L 28 250 Z" fill="#FFFFFF" opacity="0.8" />
+  </g>
+</svg>

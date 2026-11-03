@@ -1,0 +1,6 @@
+{
+  "name": "Onda Surf",
+  "description": "Aplicativo simples e minimalista de agendamento de aulas de surf para o dia atual com vagas em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "onda-surf-web",
+  "version": "1.0.0",
+  "description": "Onda Surf - Aplicação Web e PWA de agendamento de aulas de surf",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000",
+    "build": "echo 'Static web application ready for Vercel'"
+  },
+  "keywords": ["surf", "pwa", "booking", "schedule"],
+  "author": "LeticiaPubli",
+  "license": "MIT"
+}
